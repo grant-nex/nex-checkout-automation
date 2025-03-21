@@ -4,7 +4,7 @@ groups:
   - group:
     name: "3-Month Play Pass"
     paymentLink: https://buy.stripe.com/test_7sI9AL17qcPFd7abIV
-    checkout: false
+    checkout: true
     users:
     - email: "grant@nex.team"
       cardNumber: "4242424242424242"
@@ -107,7 +107,7 @@ groups:
       state: "Colorado"
   - group:
     name: "12-Month Play Pass"
-    checkout: false
+    checkout: true
     paymentLink: https://buy.stripe.com/test_aEU28jaI05nd9UYdR5
     users:
     - email: "grant@nex.team"
@@ -211,7 +211,7 @@ groups:
       state: "Colorado"
   - group:
     name: "Nex Playground"
-    checkout: false
+    checkout: true
     paymentLink: https://buy.stripe.com/test_28o14f7vOdTJc3614f
     users:
     - email: "grant@nex.team"

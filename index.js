@@ -62,33 +62,41 @@ const delay = config.delay;
 
         await page.waitForSelector('.SubmitButton--complete')
 
-        // // wait for submit button to be enabled
+        // wait for submit button to be enabled
         // await page.waitForFunction(() => !document.querySelector('button[type="submit"]').disabled);
+
+        // check if screenshots/${group.name} exists, if not create it
+        if (!fs.existsSync(`screenshots/${group.name}`)) {
+          fs.mkdirSync(`screenshots/${group.name}`);
+        }
         
         await new Promise((r) => setTimeout(r, 1000));
         await page.screenshot({
-          path: `stripe-checkout-${group.name}-${user.billingPostalCode}-${user.state}.png`,
+          path: `screenshots/${group.name}/stripe-checkout-${group.name}-${user.billingPostalCode}-${user.state}.png`,
         });
 
         
 
-        if (group.checkout === true) {
+        if (group.checkout == true) {
           await page.click('button[type="submit"]');
           
 
           // Wait for the success message
-          await page.waitForSelector('.SuccessHeader');
-          const successMessage = await page.$eval('.SuccessHeader', (el) => el.textContent);
+          await page.waitForSelector('.PaymentSuccess');
+          const successMessage = await page.$eval('.PaymentSuccess', (el) => el.textContent);
+
+          await page.waitForSelector('.PaymentSuccess-content');
           console.log(`Success for ${user.email}:`, successMessage);
+          await new Promise((r) => setTimeout(r, 500));
 
           // Take screenshot
           await page.screenshot({
-            path: `stripe-checkout-success-${group.name}-${user.billingPostalCode}-${user.state}.png`,
+            path: `screenshots/${group.name}/stripe-checkout-success-${group.name}-${user.billingPostalCode}-${user.state}.png`,
           });
         }
 
         console.log(
-          `Stripe Checkout automation completed successfully for ${user.email} in group: ${group.name}, postal code: ${user.billingPostalCode}!`
+          `Stripe Checkout automation completed successfully for ${user.email} in group: ${group.name}, postal code: ${user.billingPostalCode} state: ${user.state}!`
         );
       } catch (error) {
         console.error(`Automation failed for ${user.email} in group: ${group.name}:`, error);
