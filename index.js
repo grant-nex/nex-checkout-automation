@@ -3,7 +3,7 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 
 // Load user information from the YAML file
-const config = yaml.load(fs.readFileSync('./config.yaml', 'utf8'));
+const config = yaml.load(fs.readFileSync('config.yaml', 'utf8'));
 const groups = config.groups;
 const delay = config.delay;
 
