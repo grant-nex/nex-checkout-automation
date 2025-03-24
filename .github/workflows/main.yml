@@ -22,6 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+    
+      - run: ls -al
 
       - name: Run Puppeteer
         uses: tj-actions/puppeteer@v5
