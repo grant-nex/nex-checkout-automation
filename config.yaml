@@ -24,6 +24,7 @@ groups:
       billingAddressLine1: "Vi Le, 1564 Lake Overlook Ct Lawrenceville, GA 30044, 1564 Lake Overlook Ct, Lawrenceville Georgia 30044, United States"
       billingLocality: "Lawrenceville"
       billingPostalCode: "30044"
+      billingCountry: "US"
       state: Georgia
     - email: "grant@nex.team"
       cardNumber: "4242424242424242"
