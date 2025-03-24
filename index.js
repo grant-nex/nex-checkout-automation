@@ -2,12 +2,6 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const yaml = require('js-yaml');
 
-// ls -al current directory
-console.log(fs.readdirSync('.'));
-
-// print current directory
-console.log(process.cwd());
-
 // Load user information from the YAML file
 const config = yaml.load(fs.readFileSync('config.yaml', 'utf8'));
 const groups = config.groups;
