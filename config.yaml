@@ -1,4 +1,4 @@
-headless: true
+headless: false
 delay: 1
 groups:
   - group:
@@ -14,6 +14,7 @@ groups:
       billingAddressLine1: "Shelby Hawkins, 2185 GA HWY 37 W, Moultrie Georgia 31768, United States"
       billingLocality: "Moultrie"
       billingPostalCode: "31768"
+      billingCountry: "US"
       state: Georgia
     - email: "grant@nex.team"
       cardNumber: "4242424242424242"
@@ -32,6 +33,7 @@ groups:
       billingAddressLine1: "GESSICA AMBRIS, 1877 Santa Ines Street, Roseville, CA, USA, Roseville California 95747, United States"
       billingLocality: "Roseville"
       billingPostalCode: "95747"
+      billingCountry: "US"
       state: California
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -41,6 +43,7 @@ groups:
       billingAddressLine1: "9716 Bowie Way, Stockton, CA, USA"
       billingLocality: Stockton
       billingPostalCode: "95209"
+      billingCountry: "US"
       state: California
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -50,6 +53,7 @@ groups:
       billingAddressLine1: "1321 Chatham Heights Rd Martinsville Va 24112"
       billingLocality: "Martinsville"
       billingPostalCode: "24112"
+      billingCountry: "US"
       state: "Virginia"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -59,6 +63,7 @@ groups:
       billingAddressLine1: "1650 South Arizona Avenue 89"
       billingLocality: "Chandler"
       billingPostalCode: "85286"
+      billingCountry: "US"
       state: "Arizona"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -68,6 +73,7 @@ groups:
       billingAddressLine1: "Stacey Grahl, 424 Maryland Ave, Catonsville Maryland 21228, United States"
       billingLocality: "Catonsville"
       billingPostalCode: "21228"
+      billingCountry: "US"
       state: "Maryland"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -77,6 +83,7 @@ groups:
       billingAddressLine1: "1729 Arthur St Hollywood, FL 33020"
       billingLocality: "Miami"
       billingPostalCode: "33020"
+      billingCountry: "US"
       state: "Florida"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -86,6 +93,7 @@ groups:
       billingAddressLine1: "Sayed Abdalnabei, 4297 Express Lane, Sarasota, FL 34249, BAH 306285, Sarasota Florida 34249-2602, United States"
       billingLocality: "Sarasota"
       billingPostalCode: "34249"
+      billingCountry: "US"
       state: "Florida"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -95,6 +103,7 @@ groups:
       billingAddressLine1: "6222 North Lowell Avenue, Chicago, IL, USA"
       billingLocality: "Sarasota"
       billingPostalCode: "60646"
+      billingCountry: "US"
       state: "Illinois"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -208,6 +217,7 @@ groups:
       billingAddressLine1: "6855 Palmer Park Boulevard, Colorado Springs, CO, USA"
       billingLocality: "Colorado"
       billingPostalCode: "80915"
+      billingCountry: "US"
       state: "Colorado"
   - group:
     name: "Nex Playground"
@@ -222,6 +232,7 @@ groups:
       billingAddressLine1: "Shelby Hawkins, 2185 GA HWY 37 W, Moultrie Georgia 31768, United States"
       billingLocality: "Moultrie"
       billingPostalCode: "31768"
+      billingCountry: "US"
       state: Georgia
     - email: "grant@nex.team"
       cardNumber: "4242424242424242"
@@ -231,6 +242,7 @@ groups:
       billingAddressLine1: "Vi Le, 1564 Lake Overlook Ct Lawrenceville, GA 30044, 1564 Lake Overlook Ct, Lawrenceville Georgia 30044, United States"
       billingLocality: "Lawrenceville"
       billingPostalCode: "30044"
+      billingCountry: "US"
       state: Georgia
     - email: "grant@nex.team"
       cardNumber: "4242424242424242"
@@ -240,6 +252,7 @@ groups:
       billingAddressLine1: "GESSICA AMBRIS, 1877 Santa Ines Street, Roseville, CA, USA, Roseville California 95747, United States"
       billingLocality: "Roseville"
       billingPostalCode: "95747"
+      billingCountry: "US"
       state: California
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -249,6 +262,7 @@ groups:
       billingAddressLine1: "9716 Bowie Way, Stockton, CA, USA"
       billingLocality: Stockton
       billingPostalCode: "95209"
+      billingCountry: "US"
       state: California
 
     - email: grant@nex.team
@@ -259,6 +273,7 @@ groups:
       billingAddressLine1: "1321 Chatham Heights Rd Martinsville Va 24112"
       billingLocality: "Martinsville"
       billingPostalCode: "24112"
+      billingCountry: "US"
       state: "Virginia"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -268,6 +283,7 @@ groups:
       billingAddressLine1: "1650 South Arizona Avenue 89"
       billingLocality: "Chandler"
       billingPostalCode: "85286"
+      billingCountry: "US"
       state: "Arizona"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -277,6 +293,7 @@ groups:
       billingAddressLine1: "Stacey Grahl, 424 Maryland Ave, Catonsville Maryland 21228, United States"
       billingLocality: "Catonsville"
       billingPostalCode: "21228"
+      billingCountry: "US"
       state: "Maryland"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -286,6 +303,7 @@ groups:
       billingAddressLine1: "1729 Arthur St Hollywood, FL 33020"
       billingLocality: "Miami"
       billingPostalCode: "33020"
+      billingCountry: "US"
       state: "Florida"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -295,6 +313,7 @@ groups:
       billingAddressLine1: "Sayed Abdalnabei, 4297 Express Lane, Sarasota, FL 34249, BAH 306285, Sarasota Florida 34249-2602, United States"
       billingLocality: "Sarasota"
       billingPostalCode: "34249"
+      billingCountry: "US"
       state: "Florida"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -304,6 +323,7 @@ groups:
       billingAddressLine1: "6222 North Lowell Avenue, Chicago, IL, USA"
       billingLocality: "Sarasota"
       billingPostalCode: "60646"
+      billingCountry: "US"
       state: "Illinois"
     - email: grant@nex.team
       cardNumber: "4242424242424242"
@@ -313,4 +333,5 @@ groups:
       billingAddressLine1: "6855 Palmer Park Boulevard, Colorado Springs, CO, USA"
       billingLocality: "Colorado"
       billingPostalCode: "80915"
+      billingCountry: "US"
       state: "Colorado"

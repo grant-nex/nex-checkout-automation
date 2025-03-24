@@ -52,6 +52,11 @@ const delay = config.delay;
         await page.type('#cardNumber', user.cardNumber, { delay });
         await page.type('#cardExpiry', user.cardExpiry, { delay });
         await page.type('#cardCvc', user.cardCvc, { delay });
+
+
+        // select billingCountry
+        await page.select('#billingCountry', user.billingCountry);
+        // Fill in billing details  
         await page.type('#billingName', user.billingName, { delay });
         await page.type('#billingAddressLine1', user.billingAddressLine1, { delay });
         await page.type('#billingLocality', user.billingLocality, { delay });
